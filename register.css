@@ -1,0 +1,62 @@
+.container{
+    height:100%;
+   padding-left: 20px;
+   padding-right:40px ;
+   padding-top:5px ;
+   padding-bottom: 5pX;
+   background-image: url(eau_nature.jpg);
+   
+   position:relative;
+   display: flex;
+   line-height: 1.2;
+}
+.mohamed{
+    height: 100%;
+    margin-left:70%;
+    padding: 4%;
+    margin-right:0%;
+    background: rgb(1, 1, 51);
+    float: right;
+}   
+.mohamed h1{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2px;
+    }
+.mohamed h3{
+    color: rgb(107, 252, 107);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-top: 2px;
+}
+.mohamed p{
+    color: ivory;
+    font-size:10px ;
+    font-family: sans-serif;
+}
+.mohamed input[type="email"]{
+    color: white;
+    background-color:rgb(1, 1, 51) ;
+    border: 1px  soloid transparent;
+    border-image: linear-gradient(0deg,rgb(141, 139, 247),rgb(181, 24, 253));
+    border-image-slice:1 ;
+    width: 90%;
+    height:30px;
+    cursor: pointer;
+}
+.mohamed input[type="password"]{
+    color: white;
+    background-color:rgb(1, 1, 51) ;
+    border: 1px  soloid transparent;
+    border-image: linear-gradient(0deg,rgb(141, 139, 247),rgb(181, 24, 253));
+    border-image-slice:1 ;
+    width: 90%;
+    height:30px;
+    cursor: pointer; 
+}
+.mohamed input[type="submit"]{
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 16, 247);
+    width: 90%;
+    height: 30px;
+}
